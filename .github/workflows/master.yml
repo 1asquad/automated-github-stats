@@ -5,8 +5,8 @@ on:
     branches: [master] # Ensures the workflow triggers on pushes to master
 
   schedule:
-    - cron: '18 9 * * *' # Executes every 12 hours
-    - cron: '43 20 * * *'
+   - cron: '23 8 * * 1'
+   - cron: '51 17 * * 4'
 
   workflow_dispatch: # Allows manual triggering from the GitHub UI
 
